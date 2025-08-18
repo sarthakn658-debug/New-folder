@@ -37,6 +37,15 @@ body{
 }
 }
 */
+
+@media(min-height :729px) 
+{
+    .layout
+{
+  height: 750px;
+    border-radius: 10px;
+}
+}
 #language{
     padding: 20px 0 0 155px;
 
