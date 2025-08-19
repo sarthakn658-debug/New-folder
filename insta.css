@@ -38,7 +38,7 @@ body{
 }
 */
 
-@media(min-height :729px) 
+@media(min-height :729px) and (max-hight :1000px)
 {
     .layout
 {
