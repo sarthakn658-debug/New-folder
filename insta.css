@@ -38,11 +38,11 @@ body{
 }
 */
 
-@media(min-height :729px) and (max-hight :1000px)
+@media(min-height :700px) and (max-hight :1000px)
 {
     .layout
 {
-  height: 750px;
+  height: 700px;
     border-radius: 10px;
 }
 }
