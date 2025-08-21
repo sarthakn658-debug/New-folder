@@ -1,0 +1,135 @@
+*{
+    width: 0;
+    margin: 0;
+    font-family: Helvetica Neue,Segoe UI,Roboto, Ubuntu,sans-serif;
+}
+.background-img{
+    max-width: 1520px;
+     width: 300vh;
+    height: 730px;
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-size: auto;
+}
+#header{
+    height: 80px;
+    width: 85%;
+   max-width: 1520px;
+   margin: auto;
+   z-index: 1;
+    display: flex;
+}
+.heading-part-one{
+    height: 80px;
+    width: 500px;
+    
+}
+.nev-netflix-logo{
+    height: 60px;
+    width: 250px;
+    background-image: url(netflixwallpapery.png);
+    background-size: cover;
+   
+}
+.heading-part-two{
+   width: 900px;
+   display: flex;
+   justify-content: space-evenly;
+   justify-content: center;
+   align-items: center;
+   margin-left: 30%;
+   padding-left: 20%;
+
+}
+select{
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+   
+   
+    
+
+}
+#language{
+    background-color: rgba(25, 24, 24,0.3);
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#language option{
+    background-color: black;
+    color: white;
+      border-radius: 5px;
+
+}
+#nev-signin{
+     height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 150px;
+    background-color: red;
+    font-size: 16px;
+    cursor: pointer;
+    color: aliceblue;
+    border-style: none;
+   
+}
+.nav-main-class{
+    width: 600px;
+    text-align: center;
+    z-index: 2;
+    text-align: center;
+    margin: 250px 0 0 450px;
+}
+#nav-main{
+    max-width: 650px;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+}
+#nav-p{
+    max-width: 650px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+#nav-h{
+    max-width: 650px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.nav-search{
+     max-width: 650px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#ser{
+     height: 45px;
+    width: 330px;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: transparent;
+    border: 1px solid white;
+      
+       color: white;
+}
+#button{
+ height: 45px;
+    width: 150px;
+    margin-left: 7px;
+     border-radius: 5px;
+       background-color: red;
+       border-style: none;
+       color: white;
+        font-size: larger;
+}
+
