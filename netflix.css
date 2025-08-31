@@ -1,48 +1,74 @@
-*{
-    width: 0;
-    margin: 0;
+
+
+body{
+   
     font-family: Helvetica Neue,Segoe UI,Roboto, Ubuntu,sans-serif;
+    height: 100vh;
+    width: 100%;
+    max-height: 100%;
+  overflow: hidden;
 }
 .background-img{
-    max-width: 1520px;
-     width: 300vh;
-    height: 730px;
+
+    width: 100%;
+    height: 100%;
     background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
-    background-size: auto;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: rgb(26, 27, 27);
+
+   
+
 }
-#header{
-    height: 80px;
-    width: 85%;
-   max-width: 1520px;
-   margin: auto;
+
+.nav-header{
+    height: 8vh;
+    width: 100vw;
+    max-width: 100%;
+    font-size: 1rem;
+   padding: 2em;
    z-index: 1;
     display: flex;
+    align-items: center;
+    gap: 30em;
+  
 }
 .heading-part-one{
-    height: 80px;
-    width: 500px;
+    font-size: 1rem;
+    height: 5em;
+    width: 50vw;
+    max-width: 100%;
+    margin-left: 2%;
+
     
 }
 .nev-netflix-logo{
-    height: 60px;
-    width: 250px;
+    font-size: 1rem;
+    height: 6em;
+    width: 18em; 
     background-image: url(netflixwallpapery.png);
     background-size: cover;
+  
+
    
 }
 .heading-part-two{
-   width: 900px;
+  width: 50vw;
+  max-width: 100%;
+    font-size: 1rem;
+   max-width: 20em;
    display: flex;
    justify-content: space-evenly;
-   justify-content: center;
-   align-items: center;
-   margin-left: 30%;
-   padding-left: 20%;
+   padding-right: 4%;
+   
 
 }
-select{
-    height: 35px;
-    width: 130px;
+select{ 
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    padding: 0.5em 1.5em 0.5em 1.5em;
     border-radius: 5px;
    
    
@@ -63,10 +89,12 @@ select{
 
 }
 #nev-signin{
-     height: 35px;
-    width: 90px;
+       height: auto;
+       width: auto;
+     font-size: 1rem;
+    padding: 0.5em 1.5em 0.5em 1.5em;
     border-radius: 5px;
-    margin-left: 150px;
+    gap: 7%;
     background-color: red;
     font-size: 16px;
     cursor: pointer;
@@ -75,20 +103,21 @@ select{
    
 }
 .nav-main-class{
-    width: 600px;
+    width: 100%;
+    max-width: 40vw;
     text-align: center;
+    justify-content: center;
     z-index: 2;
-    text-align: center;
-    margin: 250px 0 0 450px;
+    margin: 14% 0 0 30%;
 }
 #nav-main{
-    max-width: 650px;
+    max-width: 65vw;
     width: 100%;
     font-size: 50px;
     color: white;
 }
 #nav-p{
-    max-width: 650px;
+    max-width: 65vw;
     width: 100%;
     font-size: 20px;
     font-weight: bold;
@@ -96,7 +125,7 @@ select{
     margin-top: 10px;
 }
 #nav-h{
-    max-width: 650px;
+    max-width: 40vw;
     width: 100%;
     font-size: 15px;
     color: white;
@@ -132,4 +161,63 @@ select{
        color: white;
         font-size: larger;
 }
+
+@media(max-width: 450px)
+{
+    .background-img{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        overflow: hidden;
+    }
+        .nev-netflix-logo{
+             background-image: url(netflixwallpapery.png);
+    background-size: cover;
+     z-index: 1;
+   
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 1em;
+        }
+     .nav-main-class{
+            
+           width: 100vw;
+           max-width: 100%;
+           margin-top: 40%;
+           margin-left: 0%;
+           
+          
+        }
+        #nav-main {
+    font-size: 1.5rem;
+  
+    color: white;
+    margin-left: 15%;
+        }
+        #nav-h{
+            display: none;
+        }
+        #nav-p{
+            font-size: 1rem;
+             margin-left: 15%;
+        }
+        .nav-search{
+            display: flex;
+            flex-direction: column;
+              margin: 10% 0 0 17%;
+              
+       
+        }
+        #ser{
+     height: 45px;
+    width: 60vw;
+    margin-bottom: 10px;
+    margin-right: 10%;
+}
+#button{
+      font-size: 1rem;
+         margin-left: 3.6em;
+}
+}
+
 
