@@ -204,21 +204,22 @@ select{
         .nav-search{
             display: flex;
             flex-direction: column;
-              margin: 10% 0 0 17%;
+              margin: 10% 0 0 10%;
               
        
         }
         #ser{
      height: 45px;
-    width: 60vw;
+    width: 80vw;
     margin-bottom: 10px;
     margin-right: 10%;
 }
 #button{
       font-size: 1rem;
-         margin-left: 3.6em;
+         margin-left: 5.2em;
 }
 }
+
 
 
 
