@@ -175,7 +175,7 @@ select{
         .nev-netflix-logo{
              background-image: url(netflixwallpapery.png);
     background-size: cover;
-     z-index: 1;
+     z-index: 2;
    
     align-items: center;
     font-size: 1rem;
@@ -187,6 +187,7 @@ select{
            max-width: 100%;
            margin-top: 50%;
            margin-left: 0%;
+          z-index: 3;
            
           
         }
@@ -221,6 +222,7 @@ select{
          margin-left: 5.2em;
 }
 }
+
 
 
 
