@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 
 body{
    
@@ -219,6 +221,7 @@ select{
          margin-left: 5.2em;
 }
 }
+
 
 
 
